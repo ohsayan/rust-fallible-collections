@@ -1,6 +1,6 @@
 mod vec_fallible;
 type EmptyResult = Result<(), ()>;
-/// A `SafeSequence` provides `try_*` implementations for sequential data structures
+/// A `FallibleSequence` provides `try_*` implementations for sequential data structures
 /// like `Vec`, `VecDeque` and `String`
 pub trait FallibleSequence {
     type TargetRaw;
